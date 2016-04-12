@@ -17,3 +17,8 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    # SopinetChat Parameters
+    chat_web_port: 8080 # Port for websocket communication
+    chat_web_ip: 127.0.0.1 # IP for websocket communication
+    chat_gcm_key: 12345 # Google Cloud Message Key
