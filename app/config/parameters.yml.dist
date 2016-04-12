@@ -19,6 +19,8 @@ parameters:
     secret:            ThisTokenIsNotSoSecretChangeIt
 
     # SopinetChat Parameters
+    chat_web_enabled: false # false or true if you want enable websocket
+    chat_background: false # false or true if you want enable background
     chat_web_port: 8080 # Port for websocket communication
     chat_web_ip: 127.0.0.1 # IP for websocket communication
     chat_gcm_key: 12345 # Google Cloud Message Key

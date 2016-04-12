@@ -132,10 +132,10 @@ old_sound_rabbit_mq:
             callback:         sopinet_chatbundle_sendMessagePackage
             
 sopinet_chat:
-    background: true
+    background: %chat_background%
     enabledIOS: false
     enabledAndroid: true
-    enabledWeb: true
+    enabledWeb: %chat_web_enabled%
     extra_type_message:
         customglobal:
             class: 'AppBundle\Entity\MessageCustomGlobal'
