@@ -101,10 +101,41 @@ gos_web_socket:
         wamp:
             host: %chat_web_ip%
             port: %chat_web_port%
+
+# SopinetChatBundle - RabbitMQBundle
+old_sound_rabbit_mq:
+    connections:
+        default:
+            host:     'localhost'
+            port:     5672
+            user:     'guest'
+            password: 'guest'
+            vhost:    '/'
+            lazy:     false
+            connection_timeout: 3
+            read_write_timeout: 3
+
+            # requires php-amqplib v2.4.1+ and PHP5.4+
+            keepalive: false
+
+            # requires php-amqplib v2.4.1+
+            heartbeat: 0
+    producers:
+        send_message_package:
+            connection:       default
+            exchange_options: {name: 'send_message_package', type: direct}
+    consumers:
+        send_message_package:
+            connection:       default
+            exchange_options: {name: 'send_message_package', type: direct}
+            queue_options:    {name: 'send_message_package'}
+            callback:         sopinet_chatbundle_sendMessagePackage
             
 sopinet_chat:
+    background: true
     enabledIOS: false
     enabledAndroid: true
+    enabledWeb: true
     extra_type_message:
         customglobal:
             class: 'AppBundle\Entity\MessageCustomGlobal'

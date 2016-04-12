@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "63725355db5f4a7888dc2170acc24efb",
-    "content-hash": "67f48e9f72ef3b771a195687bd9288aa",
+    "hash": "9ab996d4241f11fa34c1384ae1ef4dba",
+    "content-hash": "0eaab194920b0085992451f22cf4fbaf",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2173,7 +2173,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a7ade9d68f41bf6b01cc6121635c87b4420a5b46",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f56f2969f7fc99a2a060b35bcdecd57ce4b96baf",
                 "reference": "a7ade9d68f41bf6b01cc6121635c87b4420a5b46",
                 "shasum": ""
             },
@@ -3810,7 +3810,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/cd8679754d13b47ab0a4c1d3ff8d24e6b20fa5c2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/ed9c94c71912a316f32d5393841b8246315b5bfb",
                 "reference": "cd8679754d13b47ab0a4c1d3ff8d24e6b20fa5c2",
                 "shasum": ""
             },

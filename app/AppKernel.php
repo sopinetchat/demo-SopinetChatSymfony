@@ -27,6 +27,7 @@ class AppKernel extends Kernel
             new RMS\PushNotificationsBundle\RMSPushNotificationsBundle(),
             new Gos\Bundle\WebSocketBundle\GosWebSocketBundle(),
             new Gos\Bundle\PubSubRouterBundle\GosPubSubRouterBundle(),
+            new OldSound\RabbitMqBundle\OldSoundRabbitMqBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
