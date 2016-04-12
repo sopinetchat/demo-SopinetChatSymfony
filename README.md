@@ -13,6 +13,13 @@ git clone https://github.com/sopinetchat/demo-SopinetChatSymfony.git .
 composer install
 ```
 
+# Caché y base de datos
+
+```
+php app/console cache:clear
+php app/console doctrine:schema:update --force
+```
+
 # Parámetros de configuración
 
 Deberá configurar parámetros típicos de Symfony2, como base de datos
