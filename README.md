@@ -20,6 +20,18 @@ php app/console cache:clear
 php app/console doctrine:schema:update --force
 ```
 
+# Activar Websocket (útil para conectar un cliente web)
+
+Normal
+```
+php app/console gos:websocket:server
+```
+
+En Background:
+```
+nohup php app/console gos:websocket:server &
+```
+
 # Parámetros de configuración
 
 Deberá configurar parámetros típicos de Symfony2, como base de datos
