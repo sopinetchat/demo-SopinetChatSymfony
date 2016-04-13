@@ -6,6 +6,10 @@ Proyecto demo en Symfony2, utilizando el Bundle de SopinetChat
 Esta demo contiene un proyecto funcional preparado para dar servicio de chat a un cliente Web Websocket y un cliente Android.
 También tiene implementado un tipo de mensaje especial custom para mostrar dicha funcionalidad en el SopinetChatBundle.
 
+# ¡Utilizar esta demo directamente!
+
+Ahora puedes probar esta demo directamente en la instalación de pruebas que hemos hecho en la siguiente URL: [http://demo.sopinetchat.org/](http://demo.sopinetchat.org/)
+
 # Instalación
 
 ```
